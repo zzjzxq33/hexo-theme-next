@@ -27,9 +27,9 @@ custom_file_path:
   #postBodyEnd: source/_data/post-body-end.njk
   #footer: source/_data/footer.njk
   #bodyEnd: source/_data/body-end.njk
-  #variable: source/_data/variables.styl
+  variable: source/_data/variables.styl
   #mixin: source/_data/mixins.styl
-  #style: source/_data/styles.styl
+  style: source/_data/styles.styl
 
 
 # ---------------------------------------------------------------
@@ -374,10 +374,10 @@ codeblock:
   copy_button:
     enable: true
     # Available values: default | flat | mac
-    style: default
+    style: flat
   # Fold code block
   fold:
-    enable: false
+    enable: true
     height: 500
 
 back2top:
